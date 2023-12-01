@@ -1,0 +1,188 @@
+<html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fashion blog</title>
+    </head>
+    <style>
+        body{
+    font-family: 'broadway';
+    }
+    .header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 90%;
+    padding: 20px 100px;
+    background: black;
+   color: white;
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+    z-index: 99;
+    }
+    .navMenu{
+    position: relative;
+    background-color: black;
+    font-size: 1.1em;
+    }
+    .navMenu a{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    margin-left: 20px;
+    transition: .5s;
+    }
+    .navMenu a:hover{
+    color: rgb(177, 67, 120);
+    font-size: 1.2em;
+    }
+    .navMenu a :after{
+    content: "";
+    height: 2px;
+    position: absolute;
+    width: 100%;
+    background: white;
+    left: 0;
+    bottom:-6px;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: .5s;
+    }
+    .navMenu a:hover :after{
+    transform: scaleX(1);
+    }
+    .holder{
+    display: grid;
+    grid-template-columns: .5fr 5fr .5fr 5fr .5fr;
+    text-align: left;
+    font-size: 1.1em;
+    }
+    .holder img{
+   width: 90%;
+    height: auto;
+    border-radius: 50px;
+    transition-duration: 1s;
+    align-items: center;
+    justify-content: center;
+    }
+    .holder img:hover{
+    width: 100%;
+    height: auto;
+    border: 5px inset gold;
+    transition: .5s;
+    }
+    .container{
+    font-family: 'Segoe UI';
+    font-weight: 900;
+    font-size: 1.5em;
+    color: rgb(3, 2, 7);
+    position: absolute;
+    background: transparent;
+    border: 2px solid rgb(1, 62, 87);
+    border-radius: 40px;
+    backdrop-filter: blur(10px);
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 30x rgb(0, 30, 85);
+    }
+    .formBox{
+    width: 100%;
+    padding-left: 40px;
+    padding-right: 40px;
+    }
+    .formBox h1{
+    color: rgb(14, 1, 99);
+    text-align: center;
+    }
+    .inputBox{
+    position: relative;
+    border-bottom: 2px solid;
+    margin: 30px 0;
+    }
+    .inputBox input{
+    width: 400;
+    height: 40;
+   border: none;
+    }
+    input{
+    font-size: .8em;
+    font-weight: bolder;
+    color: black;
+    }
+    .logbtn{
+    width: 130px;
+    height: 40px;
+    border: 2px solid white;
+    border-radius: 6px;
+    cursor: pointer;
+    background: transparent;
+    color: white;
+    font-weight: 999;
+    font-size: .8em;
+    transition: .5s;
+    }
+    .logbtn:hover{
+    background-color: white;
+    color: black;
+    }
+    </style>
+    <body>
+    <div class="header">
+    <h1>Fashion blog</h1>
+    <div class="navMenu">
+    <a href="upload.html">Upload</a>
+    <a href="view.html">home</a>
+    <a href="aboutus.html" target="_blank">about</a>
+    <a href="contactus.html">contact</a>
+    <a href="login.html" style="display: inline-block; border: 2px solid; border-radius: 6px;padding: 10px; color: orange;">Login / Signup</a>
+    </div>
+    </div><br><br><br><br><br>
+    <br><br>
+    <div class="holder">
+    <div></div>
+    <a href="shirt.html">
+    <img src="https://www.thestatesman.com/wp-content/uploads/2019/05/mens-fashion.jpg" alt="">
+    </a>
+    <div></div>
+    <p style="margin-top: 100px;">Floral prints scream summer. It's a must-have in a
+    woman's wardrobe during summer. But how about men?
+    Looks like many of us are yet to warm up to the idea of
+    sporting floral prints. Because flowers have always been
+    considered feminine. Meanwhile, today, fashion is al about
+    experimenting. So, men, go for it this time.
+    </p>
+    </div>
+    <br><br>
+    <div class="holder">
+    <div></div>
+    <p style="margin-top: 75px;">This is popularly known as Ruffle saree. Now-a-days,
+    Ruffle Saree is the latest fashion trend in saree. It wil look versatile on your shoulder, draped
+    up to your waist as palu. You can carry a saree belt with it. It wil enhance your saree look
+    elegantly. It can be draped with different styles. Bolywood celebrities have been seen with
+    these fri l sarees added with belts, shoes, bracelets and other accessories.</p>
+    <div></div>
+    <a href="kurtha.html"><img src="https://www.hunarcourses.com/blog/wp-content/uploads/2022/09/Title-Image-17.jpg" alt=""></a>
+    </div>
+    <br><br>
+   <div class="holder">
+    <div></div>
+    <img src="https://1.bp.blogspot.com/-J5uAbKwvWKM/XxlhdGpbbEI/AAAAAAACbew/0evG7NPvEDA2Q-PYVZjoLLgOtYCAspp4gCLcBGAsYHQ/s640/Watch%252C%2BWatch%2BBlog.jpg" alt="">
+    <div></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima deleniti totam
+    placeat officia ad error repelendus deserunt, quidem minus sed dignissimos. Sequi delectus
+    quas et? Amet totam ilo ducimus nihil.</p>
+    </div>
+    <br><br>
+    <div class="holder">
+    <div></div>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae voluptates
+    aliquam ab commodi earum, similique magni assumenda maiores cumque, ad voluptatum
+    suscipit? Totam quibusdam, incidunt quae ipsum facere magnam a?</p>
+    <div></div>
+    <img src="https://media.istockphoto.com/id/1034457896/photo/stylish-woman-wearing-black-summer-shoes-with-straw-sole-outdoors-comfortable-sandals-beauty.jpg?s=612x612&amp;w=0&amp;k=20&amp;c=3sTprSCmzloWCysMqRjOITEdfUmhuM-TKre30nL2-TU=" alt="">
+    </div>
+    </body>
+    </html>
